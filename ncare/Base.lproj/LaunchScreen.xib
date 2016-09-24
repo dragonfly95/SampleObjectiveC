@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015년 Onnuri Community Church. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="750_1334.png" translatesAutoresizingMaskIntoConstraints="NO" id="HTh-Fi-69r">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HTh-Fi-69r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-5" id="E2J-aj-VJQ"/>
+                <constraint firstItem="HTh-Fi-69r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Fwm-bk-5lC"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="HTh-Fi-69r" secondAttribute="bottom" id="NVm-YF-IFP">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-41"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="HTh-Fi-69r" secondAttribute="centerY" id="Vbb-jn-NO6"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="centerX" secondItem="HTh-Fi-69r" secondAttribute="centerX" id="sI9-a5-CIs">
+                    <variation key="heightClass=regular-widthClass=compact" constant="2.5"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="HTh-Fi-69r" secondAttribute="trailing" id="t23-zR-h6T"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="HTh-Fi-69r"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="NVm-YF-IFP"/>
+                    <exclude reference="E2J-aj-VJQ"/>
+                    <exclude reference="Fwm-bk-5lC"/>
+                    <exclude reference="Vbb-jn-NO6"/>
+                    <exclude reference="sI9-a5-CIs"/>
+                    <exclude reference="t23-zR-h6T"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="HTh-Fi-69r"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="NVm-YF-IFP"/>
+                    <include reference="E2J-aj-VJQ"/>
+                    <include reference="Fwm-bk-5lC"/>
+                    <include reference="Vbb-jn-NO6"/>
+                    <include reference="sI9-a5-CIs"/>
+                    <include reference="t23-zR-h6T"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="750_1334.png" width="750" height="1334"/>
+    </resources>
+</document>
